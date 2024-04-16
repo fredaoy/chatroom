@@ -1,5 +1,5 @@
 (function connect() {
-  let socket = io.connect("https://chatroom-qoc6.onrender.com/");
+  let socket = io.connect("https://chatroom-wd2b.onrender.com/");
 
   let username = document.querySelector("#username");
   let usernameBtn = document.querySelector("#usernameBtn");
