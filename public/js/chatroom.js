@@ -1,5 +1,5 @@
 (function connect() {
-  let socket = io.connect("https://chatroom-qoc6.testchat/");
+  let socket = io.connect("https://chatroom-qoc6.aka.com/");
 
   let username = document.querySelector("#username");
   let usernameBtn = document.querySelector("#usernameBtn");
