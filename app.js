@@ -1,9 +1,11 @@
 const express = require("express");
 const socketio = require("socket.io");
+const cors = require("cors"); // เพิ่ม require สำหรับ middleware CORS
 const app = express();
 
 app.set("view engine", "ejs");
 app.use(express.static("public"));
+app.use(cors()); // เรียกใช้ middleware CORS
 
 app.get("/", (req, res) => {
   res.render("index");
